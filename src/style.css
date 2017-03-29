@@ -1,4 +1,44 @@
 body {
   background: #333;
   color: white;
+  font-size: 2vmin;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+#iconContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#iconContainer li {
+  padding: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+#iconContainer img {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 0.5vmin;
 }
