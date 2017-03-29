@@ -1,10 +1,7 @@
-# [**KATAGAMI**](https://yusai.github.io/katagami/ 'KATAGAMI')
+# [**KATAGAMI**](https://yusai.github.io/katagami/)
 
-[Design Collection](https://yusai.github.io/design-collection/ 'Design Collection'
-)のパーツを元に作成したタイルパターンを表示するためのWebアプリケーション。
+タイルパターンを表示するためのWebアプリケーション。
 
-<div style='text-align:right;font-size:small;'>
+## Source
 
-[**Yusai Works**](https://yusai.github.io/ 'Yusai Works')
-
-</div>
+* [Handbook of Ornament](https://commons.m.wikimedia.org/wiki/Category:Handbook_of_Ornament_(1900)_illustrations)
