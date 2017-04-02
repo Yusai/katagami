@@ -42,3 +42,11 @@ a {
   height: 100px;
   border-radius: 0.5vmin;
 }
+
+#katagamiContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
