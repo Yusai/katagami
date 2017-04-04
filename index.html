@@ -7,12 +7,24 @@
     <link rel='stylesheet' href='src/style.css'/>
 </head>
 <body>
-    <header><h1 class="center">KATAGAMI</h1></header>
+    <header>
+        <h1 class="center">KATAGAMI</h1>
+    </header>
     <div id="main">
         <ul id='iconContainer'></ul>
     </div>
-    <div id="katagamiContainer" style='display:none'></div>
-    <footer><p class="center small bold"><a href='https://yusai.github.io/'>@Yusai-Works</a></p></footer>
+    <div id='katagami' style='display:none'>
+        <div id="katagamiContainer">
+            <p id='edge' class='center red bold' style='display:none'>Rotate doesn't work correctly on MS Edge because of vmax.</p>
+        </div>
+        <ul id='ctrl'>
+            <li id='size-up'><span>+</span></li>
+            <li id='size-down'><span>-</span></li>
+            <li><a id='download'><span>DL</span></a></li>
+            <li id='rotate'><span>R</span></li>
+        </ul>
+    </div>
+    <footer><p class="center bold"><a href='https://yusai.github.io/'>@Yusai-Works</a></p></footer>
     <script src='src/katagami.js'></script>
     <script src='https://api.github.com/repos/Yusai/katagami/contents/svg?callback=foo'></script>
 </body>

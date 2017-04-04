@@ -1,7 +1,13 @@
 body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
   background: #333;
   color: white;
   font-size: 2vmin;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .center {
@@ -12,8 +18,9 @@ body {
   font-weight: bold;
 }
 
-.small {
-  font-size: small;
+.red {
+  color: red;
+  background: white;
 }
 
 a {
@@ -21,32 +28,92 @@ a {
   color: lightblue;
 }
 
+ul {
+  list-style: none;
+}
+
 #iconContainer {
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #iconContainer li {
-  padding: 8px;
+  padding: 1px;
   box-sizing: border-box;
   display: inline-flex;
-  flex-grow: 1;
   justify-content: center;
 }
 
 #iconContainer img {
   background: white;
-  width: 100px;
-  height: 100px;
-  border-radius: 0.5vmin;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
 }
 
-#katagamiContainer {
+#katagami {
+  background: white;
+}
+
+#katagami, #katagamiContainer {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+}
+
+#katagamiContainer {
+  width: 100vmax;
+  height: 100vmax;
+}
+
+#size-up, #size-down, #download, #rotate {
+  background: lightseagreen;
+  color: white;
+  font-size: 5.5vmin;
+  font-weight: bold;
+  position: fixed;
+  bottom: 2vmin;
+  width: 12vmin;
+  height: 12vmin;
+  border-radius: 10vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#size-up {
+  right: 2vmin;
+}
+
+#size-down {
+  left: 2vmin;
+}
+
+#download {
+  top: 2vmin;
+  right: 2vmin;
+  background: deepskyblue;
+}
+
+#rotate {
+  background: darkorange;
+  top: 2vmin;
+  left: 2vmin;
+}
+
+.deg90 {
+  transform: rotate(90deg);
+}
+
+.deg180 {
+  transform: rotate(180deg);
+}
+
+.deg270 {
+  transform: rotate(270deg);
 }
